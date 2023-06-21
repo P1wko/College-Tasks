@@ -1,0 +1,29 @@
+Jesteś małpą i zgłodniałeś/aś. Z głodu już nawet nie rozpoznajesz drzew. Od śmierci głodowej może
+wybawić Cię tylko dobry algorytm bananowy. Napisz program, który rozpozna drzewo bananowe
+wśród drzew. Jeśli drzewo jest bananowe, program powinien wyświetlić liczbę bananów
+zdefiniowaną jako liczbę liści w drzewie, tj. liczbę wierzchołków o stopniu 1, w przeciwnym
+przypadku 0. Drzewo bananowe Bn,k zdefiniowane jest jako n gwiazd na k wierzchołkach (n>0,
+k>0), których wierzchołki o najwyższym stopniu połączone są z jednym dodatkowym
+wierzchołkiem r (patrz rysunek poniżej, który przedstawia drzewo bananowe B3,4).
+
+Wejście
+W pierwszej linii liczba kolejnych linii. W kolejnych liniach. Liczba wierzchołków grafu, a
+następnie po spacji macierz sąsiedztwa wejściowego drzewa (wypisana od lewej do prawej z góry
+na dół bez spacji).
+
+Wyjście
+W kolejnych liniach. Liczba bananów w drzewie bananowym lub 0 jeśli drzewo nie jest bananowe.
+
+
+Przykład
+
+Wejście
+3
+5 0010000110110000100100010
+6 010010100000000111001000101000001000
+7 0100000100001100011100010000001000001100000100000
+
+Wyjście
+2 bananas :)
+0 bananas :(
+4 bananas :)
