@@ -1,0 +1,55 @@
+Dla danego wielościanu wypukłego P w postaci list (poprawnie uszeregowanych) wierzchołków
+ścian, wyznacz liczbę cykli na 4 wierzchołkach w grafie P' utworzonym przez przekątne
+przestrzenne wielościanu P (tzn. przekątne, które nie łączą wierzchołków na tej samej ścianie) ?
+Przykład przestrzennej przekątnej (eng. space diagonal):
+Podpowiedź: Maksymalnie 1000 wierzchołków.
+
+Wejście
+W pierwszej linii: liczba instancji (liczba wielościanów)
+W pierwszej linii danej instancji: liczba wierzchołków n i ścian f wielościanu P
+W f kolejnych liniach danej instancji: liczba wierzchołków kolejnej ściany, a następnie po spacjach
+poprawnie uszeregowane jej wierzchołki
+
+Wyjście
+W kolejnych liniach rozwiązanie problemu dla danej instancji (dla danego wielościanu):
+liczba cykli na 4 wierzchołkach w grafie P'.
+
+Przykład
+Wejście
+3
+13 9
+3 0 1 2
+7 0 2 3 7 5 6 4
+4 0 4 8 1
+7 1 8 9 11 10 3 2
+3 3 10 7
+5 4 6 12 9 8
+5 5 7 10 11 12
+3 5 12 6
+3 9 12 11
+8 10
+4 0 1 2 4
+3 0 3 6
+3 0 4 3
+3 0 6 1
+3 1 3 5
+3 1 5 2
+3 1 6 7
+3 1 7 3
+4 2 5 3 4
+3 3 7 6
+12 9
+3 0 1 2
+6 0 2 3 6 5 4
+4 0 4 7 1
+7 1 7 8 10 9 3 2
+3 3 9 6
+5 4 5 11 8 7
+4 5 6 9 10
+3 5 10 11
+3 8 11 10
+
+Wyjście
+6
+3
+2
